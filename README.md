@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 style="text-align: center; font-size:=40">Leko</h1>
+  <h1 style="text-align: center; font-size:=40">leko</h1>
 </div>
 
 <div align="center">
@@ -35,7 +35,7 @@
 
 <div align="center">
   <br/>
-  <code>git clone https://github.com/theoteno/Leko.git</code>
+  <code>git clone https://github.com/theoteno/leko.git</code>
   <br/>
   <code>cd leko</code>
   <br/>
