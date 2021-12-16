@@ -1,6 +1,6 @@
 # project name and programming language
 project(
-    'com.github.retsef.chess',
+    'com.github.theoteno.chess',
     'vala', 'c',
     version: '1.0.0'
 )
