@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2021 Bence Pásztor -->
+<!-- Copyright 2021 theoteno -->
 <!-- Previous Developer 2019 Roberto Scinocca <roberto.scinocca@gmail.com> -->
 <component type="desktop-application">
   <id>com.github.theoteno.leko</id>
@@ -49,7 +49,7 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <compulsory_for_desktop>Pantheon</compulsory_for_desktop>
-  <developer_name>Bence Pásztor</developer_name>
+  <developer_name>theoteno</developer_name>
 
   <custom>
      <value key="x-appcenter-color-primary">#603461</value>
