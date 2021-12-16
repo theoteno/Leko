@@ -1,4 +1,4 @@
-[GtkTemplate (ui="/com/github/theoteno/chess/widgets/board_box_widget.ui")]
+[GtkTemplate (ui="/com/github/theoteno/leko/widgets/board_box_widget.ui")]
 public class BoardBoxWidget : Gtk.Button {
     // public Coordinate coordinate;
 
