@@ -16,7 +16,8 @@
 * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 * Boston, MA 02110-1301 USA
 *
-* Authored by: Roberto Scinocca <roberto.scinnocca@gmail.com>
+* Started by: Roberto Scinocca <roberto.scinnocca@gmail.com>
+* Forked & in-development by: theoteno <and rebranding as Leko, like the chess grandmaster's name>
 */
 
 public class ChessApp : Gtk.Application {
@@ -24,7 +25,7 @@ public class ChessApp : Gtk.Application {
 
     public ChessApp() {
         Object (
-            application_id: "com.github.retsef.chess",
+            application_id: "com.github.theoteno.leko",
             flags: ApplicationFlags.FLAGS_NONE
         );
     }
@@ -33,14 +34,14 @@ public class ChessApp : Gtk.Application {
         try {
             //Css
             var css_provider = new Gtk.CssProvider();
-            css_provider.load_from_resource("/com/github/retsef/chess/chess.css");
+            css_provider.load_from_resource("/com/github/theoteno/leko/chess.css");
             Gtk.StyleContext.add_provider_for_screen(
                 Gdk.Screen.get_default(), css_provider,
                 Gtk.STYLE_PROVIDER_PRIORITY_USER);
 
             // UI
             var builder = new Gtk.Builder();
-            builder.add_from_resource("/com/github/retsef/chess/chess.ui");
+            builder.add_from_resource("/com/github/theoteno/leko/chess.ui");
 
             // Engine
             var board = builder.get_object("board") as BoardWidget;
