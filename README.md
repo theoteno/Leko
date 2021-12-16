@@ -15,6 +15,7 @@
   vala
   <br/>
   gtk+-3.0
+  <br/>
   granite
   <br/>
   gee-0.8
