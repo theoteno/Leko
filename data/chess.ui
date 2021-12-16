@@ -23,7 +23,7 @@ Forked & in-development by: theoteno <and rebranding as Leko, like the chess gra
 -->
 <interface>
   <requires lib="gtk+" version="3.20"/>
-  <!-- interface-local-resource-path /home/theoteno/Projects/Chess/data -->
+  <!-- interface-local-resource-path /home/theoteno/Projects/leko/data -->
   <!-- interface-css-provider-path chess.css -->
   <!-- interface-license-type gplv3 -->
   <!-- interface-name Chess -->
