@@ -12,13 +12,20 @@
 </div>
 
 <div align="center">
-  <p>vala</p>
-  <p>gtk+-3.0</p>
-  <p>granite</p>
-  <p>gee-0.8</p>
-  <p>gmodule-2.0</p>
-  <p>glib-2.0</p>
-  <p>gobject-2.0</p>
+  <br/>
+  vala
+  <br/>
+  gtk+-3.0
+  granite
+  <br/>
+  gee-0.8
+  <br/>
+  <p>gmodule-2.0
+  <br/>
+  <p>glib-2.0
+  <br/>
+  gobject-2.0
+  <br/>
 </div>
 
 
@@ -26,14 +33,27 @@
   <h3 style="text-align: center">Building from source</h3>
 </div>
 
+<div align="center">
+  <br/>
+  <code>git clone https://github.com/theoteno/Leko.git</code>
+  <br/>
+  <code>cd leko</code>
+  <br/>
+  <code>meson build --prefix=/usr</code>
+  <br/>
+  <code>cd build</code>
+  <br/>
+  <code>ninja && sudo ninja install</code>
+  <br/>
+</div>
+
+<div align="center">
+  <h3 style="text-align: center">Opening - with the terminal</h3>
+</div>
+
+<div align="center">
 <pre>
   <code>
-    <div align="center">
-      git clone https://github.com/theoteno/Leko.git
-      cd leko
-      meson build --prefix=/usr
-      cd build
-      ninja && sudo ninja install
-    </div>
+com.github.theoteno.leko
   </code>
-</pre>
+</div>
