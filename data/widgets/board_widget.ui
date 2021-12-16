@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
   <requires lib="gtk+" version="3.20"/>
-  <!-- interface-local-resource-path /home/roberto/Projects/Chess/data/widgets -->
+  <!-- interface-local-resource-path /home/theoteno/Projects/leko/data/widgets -->
 
   <!-- n-columns=8 n-rows=8 -->
   <template class="BoardWidget" parent="GtkGrid">
