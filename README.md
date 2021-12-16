@@ -22,8 +22,9 @@
 
 
 <div align="center">
-  <h3 style="text-align: center"; "color:blue">Building from source</h3>
+  <h3 style="text-align: center">Building from source</h3>
 </div>
+
 <pre>
 <code>
 git clone https://github.com/theoteno/Leko.git
@@ -33,5 +34,3 @@ cd build
 ninja && sudo ninja install
 </code>
 </pre>
-  </body>
-</html>
