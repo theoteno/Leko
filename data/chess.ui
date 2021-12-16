@@ -3,27 +3,27 @@
 
 Copyright (C) 
 
-This file is part of Chess.
+This file is part of Leko.
 
-Chess is free software: you can redistribute it and/or modify
+Leko is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-Chess is distributed in the hope that it will be useful,
+Leko is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with Chess.  If not, see <http://www.gnu.org/licenses/>.
+along with Leko.  If not, see <http://www.gnu.org/licenses/>.
 
-Author: Roberto Scinocca <roberto.scinnocca@gmail.com>
-
+Started by: Roberto Scinocca <roberto.scinnocca@gmail.com>
+Forked & in-development by: theoteno <and rebranding as Leko, like the chess grandmaster name>
 -->
 <interface>
   <requires lib="gtk+" version="3.20"/>
-  <!-- interface-local-resource-path /home/roberto/Projects/Chess/data -->
+  <!-- interface-local-resource-path /home/theoteno/Projects/Chess/data -->
   <!-- interface-css-provider-path chess.css -->
   <!-- interface-license-type gplv3 -->
   <!-- interface-name Chess -->
@@ -45,7 +45,7 @@ Author: Roberto Scinocca <roberto.scinnocca@gmail.com>
             <property name="height-request">680</property>
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="resource">/com/github/retsef/chess/backgrounds/background.png</property>
+            <property name="resource">/com/github/theoteno/leko/backgrounds/background.png</property>
           </object>
         </child>
         <child>
@@ -54,7 +54,7 @@ Author: Roberto Scinocca <roberto.scinnocca@gmail.com>
             <property name="height-request">680</property>
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="resource">/com/github/retsef/chess/backgrounds/board.png</property>
+            <property name="resource">/com/github/theoteno/leko/backgrounds/board.png</property>
           </object>
         </child>
         <child>
