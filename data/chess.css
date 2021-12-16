@@ -1,9 +1,9 @@
 headerbar * {
-    color: white;
+    color: white;  /* thats... strange. */
 }
 
 headerbar.titlebar {
-    background: #803D0E;
+    background: #803D0E;  /* Note! To-do: change color depending on the active player; brown & light-brown. */
 }
 
 headerbar .new_game_btn {
