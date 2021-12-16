@@ -20,9 +20,9 @@
   <br/>
   gee-0.8
   <br/>
-  <p>gmodule-2.0
+  gmodule-2.0
   <br/>
-  <p>glib-2.0
+  glib-2.0
   <br/>
   gobject-2.0
   <br/>
