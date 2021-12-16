@@ -28,10 +28,12 @@
 
 <pre>
   <code>
-    git clone https://github.com/theoteno/Leko.git
-    cd leko
-    meson build --prefix=/usr
-    cd build
-    ninja && sudo ninja install
+    <div align="center">
+      git clone https://github.com/theoteno/Leko.git
+      cd leko
+      meson build --prefix=/usr
+      cd build
+      ninja && sudo ninja install
+    </div>
   </code>
 </pre>
