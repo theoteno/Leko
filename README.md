@@ -1,22 +1,37 @@
-# Leko
-Fork of a Chess game for Elementary OS
+<div align="center">
+  <h1 style="text-align: center; font-size:=40">Leko</h1>
+</div>
 
-# Building from source - Dependencies
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/49147230/146438198-1972c156-d595-4989-8b5f-397ae87ca6ec.png" alt="screenshot" width="300"/>
+  <p style="text-align: center">Fork of a Chess game for Elementary OS, to fix the bugs</p>
+</div>
 
-gtk_dependency = dependency('gtk+-3.0')
-granite_dependency = dependency('granite', version: '>= 5.3.0')
-gee_dependency = dependency('gee-0.8')
-gmodule_dependency = dependency('gmodule-2.0')
-glib_dependency = dependency('glib-2.0')
-gobject_dependency = dependency('gobject-2.0')
+<div align="center">
+  <h3 style="text-align: center">Dependencies</h3>
+</div>
+
+<div align="center">
+    <p>gtk+-3.0</p>
+    <p>granite</p>
+    <p>gee-0.8</p>
+    <p>gmodule-2.0</p>
+    <p>glib-2.0</p>
+    <p>gobject-2.0</p>
+</div>
 
 
-## Building
-
-```bash
+<div align="center">
+  <h3 style="text-align: center"; "color:blue">Building from source</h3>
+</div>
+<pre>
+<code>
 git clone https://github.com/theoteno/Leko.git
 cd leko
 meson build --prefix=/usr
 cd build
 ninja && sudo ninja install
-```
+</code>
+</pre>
+  </body>
+</html>
