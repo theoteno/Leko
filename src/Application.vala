@@ -17,7 +17,7 @@
 * Boston, MA 02110-1301 USA
 *
 * Started by: Roberto Scinocca <roberto.scinnocca@gmail.com>
-* Forked & in-development by: theoteno <and rebranding as Leko, like the chess grandmaster's name>
+* Forked & in-development by: theoteno <and rebranding as Leko, like the chess grandmaster name>
 */
 
 public class ChessApp : Gtk.Application {
