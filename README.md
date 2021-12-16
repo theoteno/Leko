@@ -14,7 +14,7 @@ gobject_dependency = dependency('gobject-2.0')
 ## Building
 
 ```bash
-git clone https://github.com/theoteno/Leko
+git clone https://github.com/theoteno/Leko.git
 cd leko
 meson build --prefix=/usr
 cd build
