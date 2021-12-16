@@ -12,7 +12,6 @@
 </div>
 
 <div align="center">
-  <br/>
   vala
   <br/>
   gtk+-3.0
