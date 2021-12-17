@@ -1,0 +1,3 @@
+Problem 1: debian package errors
+Problem 2: chess pieces need to move their move tiles, too!
+problem 3: adding movement to knights (need to add empty color class)

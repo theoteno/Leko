@@ -38,4 +38,3 @@ public class BoardBoxWidget : Gtk.Button {
     }
 
 }
-

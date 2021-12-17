@@ -206,6 +206,6 @@ public class Coordinate : Object, Comparable<Coordinate>, Hashable<Coordinate> {
     }
 
     public string to_string() {
-        return this.row.to_string() + this.column.to_string();
+        return this.column.to_string() + this.row.to_string(); 
     }
 }

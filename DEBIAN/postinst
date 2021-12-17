@@ -1,0 +1,3 @@
+#!/bin/sh
+chmod +x /usr/bin/com.github.theoteno.leko
+exit 0

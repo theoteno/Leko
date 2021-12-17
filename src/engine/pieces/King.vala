@@ -18,7 +18,7 @@ public class King : Piece {
     }
 
     public override string to_string() {
-        return "King " + base.colour.to_string();
+        return base.colour.to_string() + " King";
     }
 
     public override Gee.List<Coordinate> movement(Coordinate start) {

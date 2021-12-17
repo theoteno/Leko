@@ -1,0 +1,9 @@
+Package: Leko
+Version: 0.0.1
+Depends: valac (>= 0.40), libgtk-3-0, libgranite-common, libgee-0.8-2, gir1.2-glib-2.0
+Section: devel
+Priority: optional
+Architecture: amd64
+Maintainer: theotenoknight@gmail.com
+Description: Fork of a Chess Game for Elementary OS
+ Like really, be kind to it, right!

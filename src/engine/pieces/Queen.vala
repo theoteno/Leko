@@ -19,7 +19,7 @@ public class Queen : Piece {
     }
 
     public override string to_string() {
-        return "Queen " + base.colour.to_string();
+        return base.colour.to_string() + " Queen";
     }
 
     public override Gee.List<Coordinate> movement(Coordinate start) {

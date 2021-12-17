@@ -1,6 +1,6 @@
 using Gee;
 
-[GtkTemplate (ui="/com/github/retsef/chess/widgets/board_widget.ui")]
+[GtkTemplate (ui="/com/github/theoteno/leko/widgets/board_widget.ui")]
 public class BoardWidget : Gtk.Grid {
 
     [GtkChild]
@@ -325,4 +325,3 @@ public class BoardWidget : Gtk.Grid {
         }
     }
 }
-
