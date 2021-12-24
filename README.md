@@ -4,7 +4,7 @@
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/49147230/146438198-1972c156-d595-4989-8b5f-397ae87ca6ec.png" alt="screenshot" width="300"/>
-  <p style="text-align: center">Fork of a Chess game for Elementary OS, to fix the bugs</p>
+  <p style="text-align: center">Fork of a Chess game for Elementary OS, but got dropped. Might make original tools instead, or a game</p>
 </div>
 
 <div align="center">
